@@ -1,5 +1,6 @@
 package inheritance;
 //child class or derived class or Sub class
+//extends -> Is a relationship
 public class TataSafari extends Car {
 
     boolean hasSunRoof;

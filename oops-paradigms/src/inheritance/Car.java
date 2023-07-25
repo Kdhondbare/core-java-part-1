@@ -1,5 +1,10 @@
 package inheritance;
+
+import java.util.Arrays;
+
 //Parent class or base class or super class
+//extends/inheritance -> Is a relationship - TataSafari is a car
+//composition -> has a relationship - TataSafari has a wheel
 /*
 Inheritance reduces duplicate code and basic properties of similar classes can be extracted in common class
 that we call as a base class. All similar classes will extend/inherit base class.
@@ -9,6 +14,8 @@ public class Car {
     String yearOfMan;
     int cc;
     boolean isPetrol;
+
+
 
     public Car() {
 
@@ -63,3 +70,4 @@ public class Car {
                 '}';
     }
 }
+
