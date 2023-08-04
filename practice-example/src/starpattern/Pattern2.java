@@ -3,6 +3,7 @@ package starpattern;
 public class Pattern2 {
 
     public static void main(String[] args) {
+        System.out.println("Star pattern 2");
 
         for (int i=1; i<=5; i++) {
 
