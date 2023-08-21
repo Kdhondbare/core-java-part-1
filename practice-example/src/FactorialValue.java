@@ -4,8 +4,6 @@ public class FactorialValue {
 
     public static void main(String[] args) {
 
-        System.out.println("Modifying for testing purpose.");
-
         Scanner s = new Scanner(System.in);
         String yesNo = "1";
         while (yesNo.equalsIgnoreCase("1")) {
