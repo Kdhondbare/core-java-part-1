@@ -33,7 +33,7 @@ public class WrapperClassesExample {
 
         System.out.println("Float.MIN_VALUE : " + Float.MIN_VALUE);
         System.out.println("Float.MAX_VALUE : " + Float.MAX_VALUE);
-        f1 = f2;
+        f1 = f2;// autoUnboxing --> automatic converts from Float(primitive wrapper) to float(primitive)
         System.out.println("f1 : " + f1);
         System.out.println("f2 : " + f2);
     }
