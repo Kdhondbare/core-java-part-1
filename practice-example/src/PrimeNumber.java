@@ -6,7 +6,7 @@ public class PrimeNumber {
 
         Scanner sc = new Scanner(System.in);
         int temp = 0;
-        System.out.println("Enter the number, upto you want the prime numbers.");
+        System.out.println("Enter the number, till you want the prime numbers to print.");
         int number = sc.nextInt();
 
         for (int i=1; i<=number; i++) {
