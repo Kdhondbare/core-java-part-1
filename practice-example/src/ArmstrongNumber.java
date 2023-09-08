@@ -8,9 +8,9 @@ public class ArmstrongNumber {
         System.out.println("Enter the number.");
         int number = s.nextInt();
         int t1 = number;
-        int leng = 0;
+        int length = 0;
         while (t1 != 0) {
-            leng = leng + 1;
+            length = length + 1;
             t1 = t1/10;
         }
         int t2 = number;
@@ -18,12 +18,12 @@ public class ArmstrongNumber {
         int remainder;
 
         while (t2 != 0) {
-            int mul = 1;
+            int multiply = 1;
             remainder = t2 % 10;
-            for (int i=1; i<=leng; i++) {
-                mul = mul*remainder;
+            for (int i=1; i<=length; i++) {
+                multiply = multiply*remainder;
             }
-            arm = arm + mul;
+            arm = arm + multiply;
             t2 = t2/10;
         }
         if (arm == number) {
