@@ -57,6 +57,7 @@ public class RatsAndHouses {
     }
 
     public static void main(String[] args) {
+        System.out.println("Practice code");
         int r = 5; // Number of rats
         int unit = 2; // Amount of food each rat consumes
         int[] arr = {4, 2, 6, 8, 5}; // Amount of food in each house
