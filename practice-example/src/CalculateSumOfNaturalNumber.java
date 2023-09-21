@@ -14,5 +14,16 @@ public class CalculateSumOfNaturalNumber {
             sum += i;
         }
         System.out.println("Sum = " + sum);
+
+        System.out.println("**********************************");
+        System.out.println("Sum of Natural Number Using While Loop");
+        System.out.println("Enter the number2.");
+        int num2 = s.nextInt();
+        int a = 1, sum1 = 0;
+        while (a <= num){
+            sum1 += a;
+            a++;
+        }
+        System.out.println("Sum = " + sum);
     }
 }
