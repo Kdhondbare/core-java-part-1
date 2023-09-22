@@ -16,5 +16,23 @@ public class FactorsOfNumber {
                 System.out.print(a + ", ");
             }
         }
+
+        System.out.println();
+        System.out.println("Factors of Negative Number.");
+        System.out.println("Enter the negative number.");
+        int negNum = s.nextInt();
+
+        System.out.println("Factors of " + negNum + " are : ");
+
+        for (int b=negNum; b<=Math.abs(negNum); b++) {
+
+            if (b==0) {
+                continue;
+            } else {
+                if (negNum % b == 0) {
+                    System.out.print(b + ", ");
+                }
+            }
+        }
     }
 }
