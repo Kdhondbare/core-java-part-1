@@ -26,5 +26,20 @@ public class ListExampleInJava5 {
         for (int i : primeNum) {
             System.out.println("Prime number i : " + i);
         }
+
+        List<Student> studentList = new ArrayList<>();
+
+        studentList.add(new Student("Vikram", 28, 100));
+        studentList.add(new Student("Komal", 22, 101));
+        studentList.add(new Student("Bhagyashree", 21, 103));
+        studentList.add(new Student("Karan", 23, 104));
+
+        for (Student student: studentList) {
+            System.out.println("My student name : " + student);
+        }
+
+        Employee<HR> hrEmployee= new HR();
+        Employee<Admin> adminEmployee = new Admin();
+        Employee<Developer> developerEmployee = new Developer();
     }
 }
