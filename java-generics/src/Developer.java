@@ -1,2 +1,2 @@
-public class Developer extends Employee{
+public class Developer extends Employee<Developer>{
 }

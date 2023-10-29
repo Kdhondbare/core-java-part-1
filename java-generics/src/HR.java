@@ -1,2 +1,2 @@
-public class HR extends Employee{
+public class HR extends Employee<HR>{
 }
